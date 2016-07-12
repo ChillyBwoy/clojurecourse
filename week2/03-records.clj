@@ -1,6 +1,5 @@
 ;; (def p {:x 1 :y 2})
 ;; (:x p)
-(ns records)
 (deftype PointT [^long x
                  ^:long y])
 (def p (PointT. 10 10))
