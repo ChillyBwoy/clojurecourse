@@ -1,3 +1,5 @@
+(ns week1.core)
+
 ;; ------------ funcs
 (apply + 1 2 3 4 [1 2 3 4])
 

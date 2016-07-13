@@ -1,4 +1,4 @@
-(ns user)
+(ns week2.e09-metadata)
 
 
 (def m {:s 2})

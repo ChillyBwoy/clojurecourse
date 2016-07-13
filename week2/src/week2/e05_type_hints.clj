@@ -1,4 +1,5 @@
-(ns user)
+(ns week2.e05-type-hints)
+
 (set! *warn-on-reflection* true)
 
 (defn strlen ^Integer [^String s]

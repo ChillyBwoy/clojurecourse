@@ -1,3 +1,5 @@
+(ns week2.e01-multimethod)
+
 (def figs [{:type :rect :w 10 :h 20}
            {:type :rect :w 5  :h 6}
            {:type :circle :r 15}
