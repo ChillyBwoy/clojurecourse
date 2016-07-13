@@ -1,4 +1,4 @@
-# week1
+# week01
 
 A Clojure library designed to ... well, that part is up to you.
 

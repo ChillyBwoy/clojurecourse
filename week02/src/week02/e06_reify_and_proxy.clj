@@ -1,4 +1,4 @@
-(ns week2.e06-reify-and-proxy)
+(ns week02.e06-reify-and-proxy)
 
 (import '[java.util ArrayList Collections Comparator Timer TimerTask])
 

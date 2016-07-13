@@ -1,4 +1,4 @@
-(ns week2.e07-fs)
+(ns week02.e07-fs)
 
 (require '[clojure.java.io :as io])
 

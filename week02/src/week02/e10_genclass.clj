@@ -1,4 +1,4 @@
-(ns week2.e10-genclass
+(ns week02.e10-genclass
   (:gen-class
    :name user.SomeClass
    :prefix cl-

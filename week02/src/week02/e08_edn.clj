@@ -1,4 +1,4 @@
-(ns week2.e08-edn)
+(ns week02.e08-edn)
 ;; EDN – extensible data notation
 
 (pr-str {:a 1})

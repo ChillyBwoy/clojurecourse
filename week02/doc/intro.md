@@ -1,3 +1,3 @@
-# Introduction to week2
+# Introduction to week02
 
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)

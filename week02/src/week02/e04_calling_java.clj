@@ -1,4 +1,4 @@
-(ns week2.e04-calling_java)
+(ns week02.e04-calling_java)
 
 (import '[java.io File])
 

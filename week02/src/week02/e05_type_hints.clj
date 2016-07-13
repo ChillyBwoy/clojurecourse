@@ -1,4 +1,4 @@
-(ns week2.e05-type-hints)
+(ns week02.e05-type-hints)
 
 (set! *warn-on-reflection* true)
 

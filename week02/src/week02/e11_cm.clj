@@ -1,4 +1,4 @@
-(ns week2.e11-cm
+(ns week02.e11-cm
   (:use [clojure.core.match :only (match)]))
 
 

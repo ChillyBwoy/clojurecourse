@@ -1,6 +1,6 @@
-(ns week2.core-test
+(ns week02.core-test
   (:require [clojure.test :refer :all]
-            [week2.core :refer :all]))
+            [week02.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

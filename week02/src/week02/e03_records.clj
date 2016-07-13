@@ -1,4 +1,4 @@
-(ns week2.e03-records)
+(ns week02.e03-records)
 
 ;; (def p {:x 1 :y 2})
 ;; (:x p)
