@@ -1,4 +1,4 @@
-(ns week02.e20_deftype)
+(ns week02.e20-deftype)
 
 
 ;; transient
