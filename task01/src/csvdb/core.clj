@@ -67,26 +67,26 @@
 ;;
 ;; Hint: if-not, filter
 (defn where* [data condition-func]
-  (if-not condition-func
-    data
-    (filter condition-func data)))
+  (if condition-func
+    (filter condition-func data)
+    data))
 
 ;; (limit* student 1)
 ;; => ({:surname "Ivanov", :year 1998, :id 1})
 ;;
 ;; Hint: if-not, take
 (defn limit* [data lim]
-  (if-not lim
-    data
-    (take lim data)))
+  (if lim
+    (take lim data)
+    data))
 
 ;; (order-by* student :year)
 ;; => ({:surname "Sidorov", :year 1996, :id 3} {:surname "Petrov", :year 1997, :id 2} {:surname "Ivanov", :year 1998, :id 1})
 ;; Hint: if-not, sort-by
 (defn order-by* [data column]
-  (if-not column
-    data
-    (sort-by column data)))
+  (if column
+    (sort-by column data)
+    data))
 
 ;; (join* (join* student-subject :student_id student :id) :subject_id subject :id)
 ;; => [{:subject "Math", :subject_id 1, :surname "Ivanov", :year 1998, :student_id 1, :id 1}
